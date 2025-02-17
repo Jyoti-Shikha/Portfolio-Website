@@ -1,0 +1,461 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: "poppins";
+}
+
+nav div a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    font-family: "poppins";
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div.left {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 0 0 0 5rem;
+    height: 8rem;
+}
+
+nav div.left a {
+    font-size: 1rem;
+}
+
+nav div.right {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    padding: 0 5rem 0 0;
+    justify-content: right;
+    align-items: center;
+    height: 8rem;
+}
+
+nav div.right a {
+    border: .2rem solid orange;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border-radius: 3rem;
+    transition-duration: 0.1s;
+    font-size: 1rem;
+}
+
+nav div.right a:hover {
+    border: .2rem solid orange;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    border-radius: 3rem;
+    background-color: orange;
+
+}
+
+.introdiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: black;
+    height: 22.5rem;
+}
+
+.introdiv video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dp {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: black;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: .5rem;
+}
+
+.dpcircle {
+    width: 25%;
+    height: fit-content;
+    border-width: 2rem;
+    border-color: aliceblue;
+    border-radius: 50%;
+    background-color: black;
+    align-items: left;
+    margin: 0 2rem 0 0;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.dpinfo {
+
+    color: white;
+}
+
+.dpinfo h1 {
+    color: orange;
+}
+
+.dpinfo p {
+    margin: 0 0 0 0;
+}
+
+.dpcircle img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.dplinks {
+    margin: .5rem 0 0 0;
+}
+
+.dplinks ul {
+    display: flex;
+}
+
+.dplinks ul li {
+    list-style: none;
+    margin: 0 1rem 0 0;
+    color: white;
+}
+
+.dplinks ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.dplinks ul li a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 0;
+    height: 20rem;
+    background-color: black;
+    border-radius: 10%;
+}
+
+.about {
+    padding: 1.5rem 0 0rem 0;
+    color: white;
+}
+
+.about h1 {
+    padding: 0 0 1rem 0;
+    color: orange;
+}
+
+.about h3 {
+    padding: 0 0 .5rem 0;
+    color: orange;
+}
+
+.about p {
+    text-align: justify;
+    padding: 0 0 2rem 0;
+}
+
+.about p a {
+    text-decoration: none;
+    color: orange;
+}
+
+.exp h1 {
+    padding: 0 0 1.5rem 0;
+    color: orange;
+}
+
+.exptitle {
+    display: flex;
+}
+
+.expdp {
+    width: 3rem;
+    height: 3rem;
+    border-color: aliceblue;
+    border-radius: 50%;
+    background-color: white;
+    align-items: left;
+    margin:0 0 0 0;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.expdp img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.expname {
+    width: 100%;
+    height: fit-content;
+    align-items: left;
+    justify-content: top;
+    padding: 0 0 0 1rem;
+    color: white;
+}
+
+.expname p {
+    width: fit-content;
+    background-color: orange;
+    border-radius: 2rem;
+    padding: 0 .5rem 0 1rem;
+    margin-top: .2rem;
+    margin-bottom: 1.5rem;
+}
+
+.expimg {
+    width: 100%;
+}
+
+.expimg img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.expfeed {
+    width: 100%;
+    text-align: justify;
+}
+
+.expfeed p {
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    width: 100%;
+    padding: 1rem 0 0 0;
+    margin: 0 0 0 0;
+}
+
+p.heart {
+    font-size: 2rem;
+    padding: 0 0 0 0;
+
+}
+
+p.expdate {
+    background-color: black;
+    font-weight: 1rem;
+    font-size: 1.5rem;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.expname time {
+    color: grey;
+    font-weight: 400;
+}
+
+.expseeall {
+    margin: 1.5rem 0 3rem 0;
+    text-align: center;
+    background-color: black;
+    border-radius: 3rem;
+    border: .2rem solid orange;
+    transition-duration: 0.3s;
+}
+
+.expseeall a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    color: orange;
+    font-weight: 600;
+}
+
+.proj h1 {
+    color: orange;
+    padding: 2.5rem 0 1rem 0;
+}
+
+.proj h2 {
+    color: orange;
+}
+
+.projname time {
+    color: white;
+    font-weight: 300;
+    vertical-align: top;
+}
+
+.projname {
+    margin-bottom: .5rem;
+}
+
+
+.projname p time{
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem 0 1rem;
+    border-radius: 2rem;
+    border-color: orange;
+    border-style: solid;
+}
+
+.projimg img {
+    width: 100%;
+    object-fit: fill;
+}
+
+.projimg p {
+    margin-top: .5rem;
+    color: white;
+    text-align: justify;
+}
+
+p.projlink a {
+    text-decoration: none;
+    color: orange;
+    padding: 0 1rem 0 0;
+    border-radius: 2rem;
+}
+
+.projlink {
+    margin-bottom: 2rem;
+}
+
+.projseeall {
+    margin: 2rem 0 5rem 0;
+    text-align: center;
+    background-color: black;
+    border-radius: 3rem;
+    border: .2rem solid orange;
+    transition-duration: 0.3s;
+}
+
+.projseeall a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    color: orange;
+    font-weight: 600;
+}
+
+.contactlink {
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.contactlinkp time {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.contactlink h3 {
+    padding: .5rem 0 .5rem 0;
+    color: white;
+    font-size: large;
+}
+
+@media screen and (max-width: 950px) 
+{
+
+
+    nav div.left {
+        width: 30%;
+        padding: 0 0 0 2.5rem;
+    }
+
+    nav div.right {
+        width: 30%;
+        padding: 0 2.5rem 0 0;
+    }
+
+    .dp {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .dpcircle {
+        width: 25%;
+        height: auto;
+        padding-top: 20px;
+        margin-right: 0;
+    }
+
+    .contactlink {
+        font-size: 2rem;
+        margin: 0 0 0 0;
+    }
+
+    .contactlinkp time {
+        padding: 1rem .5rem 1rem .5rem;
+    }
+
+    .introdiv video {
+        object-fit: cover;
+    }
+
+    .introdiv {
+        height: 15rem;
+        width: 100%;
+    }
+
+    .dpinfo {
+        text-align: left;
+    }
+
+    .dpinfo h1 {
+        margin-top: 1rem;
+    }
+
+    .content {
+        width: 85%;
+    }
+
+    .about h1 {
+        padding-bottom: .5rem;
+    }
+
+    .about {
+        padding-top: 3.5rem;
+    }
+
+    .projname p {
+        line-height: 2rem;
+    }
+}
